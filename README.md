@@ -8,7 +8,7 @@ This is a server for hosting a document store + chat application. It stems from 
 ### Install SQL schema
 `./schema.sql` includes the necessary SQL schema for the data. You can import that into a database of your choosing (pgAdmin, console, etc). Then just update:
 
-    postgresql://postgres:PASSWORD@localhost:5432/pdf_chat
+    postgresql://USER:PASSWORD@HOST:PORT/DATABASE_NAME
 
 To reflect your database connection settings.
 
